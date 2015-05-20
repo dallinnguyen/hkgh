@@ -1,0 +1,11 @@
+/bootstrap/compiled.php
+/vendor
+composer.phar
+composer.lock
+.env.*.php
+.env.php
+.DS_Store
+Thumbs.db
+/layout/base_bk.blade.php
+index_bk.blade.php
+index_bk2.blade.php

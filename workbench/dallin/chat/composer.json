@@ -1,0 +1,20 @@
+{
+    "name": "dallin/chat",
+    "description": "",
+    "authors": [
+        {
+            "name": "Dallin",
+            "email": "hellyeahwarriors@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Dallin\\Chat": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

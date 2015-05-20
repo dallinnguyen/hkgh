@@ -1,0 +1,127 @@
+html, body{
+                padding:0;
+                margin:0;
+                position:relative;
+                /*background:#333 url(http://static.tumblr.com/maopbtg/a5emgtoju/inflicted.png);*/
+                background:#333 url(../img/inflicted.png);
+                background-repeat:repeat;
+                color:#fff;
+                letter-spacing:1px;
+                font-family:Georgia, "Times New Roman", Times, serif;
+               
+}
+
+
+/*chat*/
+#profiler {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    max-height: 250px;
+    overflow: auto;
+}
+
+#profiler > .checkpoint {
+    padding: 8px;
+    margin: 8px;
+    color: #fff;
+    font-size: 12px;
+    font-family: Monaco, Consolas, monospace;
+    text-shadow: 0 1px 0 #111;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+#profiler > .checkpoint:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#profiler > .checkpoint > .number {
+    display: block;
+    margin: 0 0 5px;
+    font-weight: bold;
+}
+
+#profiler > .checkpoint > .execution-time {
+    margin: 5px 0 0;
+    display: inline-block;
+    padding: 2px 4px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #ccc;
+    box-shadow: 2px 2px 0 #222;
+    color: #333;
+    text-shadow: 0 1px 0 #fff;
+}
+/*end chat*/
+
+/*profile*/
+
+
+/*end profile*/
+
+
+.chat-widget {
+  margin: auto;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  width: 264px;
+  height: 344px;
+  background: #f1e9db;
+  border-radius: 10px;
+  box-shadow: 0 0 85px #222;
+  
+}
+
+.chatter-main{
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 250px;
+    width: 264px;
+    overflow:  auto;
+    
+    
+}
+
+
+.chatter-header{
+    height: 50px;
+    background-color: green;
+}
+
+.chatter-header .chat-avatar {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  
+  
+  background: url("../img/system_icons/watch.png");
+  background-size: 100% 100%;
+  
+  
+}
+
+
+.chatter-input-group {
+    position: absolute;
+    top: 310px;
+}
+
+.postsScrolling{
+   
+   
+    height: 130px;
+    overflow-x: scroll;
+    
+}
+
+.postsScrolling::-webkit-scrollbar {
+ display: none;
+}
+ 
+

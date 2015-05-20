@@ -1,0 +1,257 @@
+@font-face {
+    font-family: "ColaborateThinRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("http://www.broumi.com/freebies/fonts/ColabThi-webfont.ttf") format("truetype"), 
+		 url("http://www.broumi.com/freebies/fonts/Colaborate-fontfacekit/ColabThi-webfont.svg#ColaborateThinRegular") format("svg");}
+
+@font-face {
+    font-family: "Bellota";
+    font-style: normal;
+    font-weight: normal;
+    src: url("http://www.broumi.com/freebies/fonts/Bellota-Regular.otf") format("truetype"), 
+		 url("http://www.broumi.com/freebies/fonts/Bellota-Regular.svg#ColaborateThinRegular") format("svg");}
+
+#my-post-a {
+	text-decoration:none;
+	outline:none;}
+
+
+
+.my-post {
+	/*height:142px; original*/ 
+	height:242px;
+	/*width:142px; original*/ 
+	width:600px;
+        
+	background-color:#f5f5f5;
+	margin: 2% auto;
+	margin-bottom: 10px;
+	border-radius: 100px 100px 100px 100px;
+	box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+	/*transition: all 0.7s ease 0s; original*/ 
+	overflow:hidden;}
+	
+.my-post-form {
+	/*height:142px; original*/ 
+	height:142px;
+	/*width:142px; original*/ 
+	width:600px;
+        float:left;
+	background-color:#f5f5f5;
+	margin: 2% auto;
+	margin-bottom: 10px;
+	border-radius: 100px 100px 100px 100px;
+	box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.3);
+	/*transition: all 0.7s ease 0s; original*/ 
+	overflow:hidden;}
+	
+	
+/*.my-post:hover {*/
+/*	width:600px;*/
+/*	transition: all 0.7s ease 0s;} original*/
+    
+.my-post-new{
+    display:block;
+}
+    
+    
+.profile-picture {
+    display:inline-block;
+
+    width:100px;
+    overflow:hidden;
+    margin:5px;
+    float:left;}
+    
+.my-post-new-avatar-img {
+    display:inline-block;
+    border-radius: 100px 100px 100px 100px;
+    height:120px;
+    overflow:hidden;
+    margin:5px;
+    
+    float:left;
+
+    /*transition: all 0.2s ease;*/
+    }
+    
+.my-post-new-avatar-img:hover {
+   -webkit-filter: contrast(160%);
+}
+	
+.my-post-block {
+	/*height:142px; original*/
+	height:242px;
+	width:600px;
+	
+	}
+    
+.my-post-block-form {
+	height:142px; 
+	
+	width:600px;
+	
+	}
+	
+.my-post-content {
+	/*height:120px; original*/
+	height:220px; 
+	width:330px;
+	float:left;
+	margin:12px 0 0 15px;
+	overflow:auto;
+	font-family:arial;}
+	
+.my-post-content-form {
+	height:120px; 
+	width:330px;
+	float:left;
+	margin:12px 0 0 15px;
+	overflow:auto;
+	font-family:arial;}
+	
+.my-post-name {
+	font-size:18px;
+	color:green;}
+	
+.my-post-fonction {
+	font-size:14px;
+	color:#a9a9a9;
+	font-weight:normal;
+	margin:0;}
+	
+.my-post-presentation {
+	font-family:
+	arial;
+	margin:10px 0 0;
+  font-size:14px;
+  color:#474747;}
+
+.my-post-comment {
+	font-family:
+	arial;
+	margin:10px 0 0;
+  font-size:14px;
+  color:#474747;}
+  
+  .my-post-reply {
+	font-family:
+	arial;
+	margin:3px 0 0;
+	margin-left: 20px;
+  font-size:14px;
+  color:#474747;}
+  
+.my-post-status {
+	font-family:
+	arial;
+	margin:3px 0 0;
+	margin-left: 20px;
+  font-size:10px;
+  color:#474747;}
+  
+  .my-like-button{
+    font-family:
+	arial;
+	margin:3px 0 0;
+	margin-left: 20px;
+  font-size:10px;
+  color:blue;}
+    
+  .my-comment-status{
+	font-family:
+	arial;
+	margin:3px 0 0;
+	margin-left: 20px;
+	font-size:10px;
+	color:#474747;
+    
+  }
+	
+.my-post-button {
+	margin-top: 30px;
+	padding:0;
+	height:100px;
+	width:50px;
+	float:left;
+	list-style:none;
+	margin-left:20px;}
+	
+.my-post-block li {
+	width:110px;
+	height:36px;
+	transition: all 0.5s ease 0s;}
+	
+.my-post-block li:hover {
+	padding-left:10px;
+	transition: all 0.5s ease 0s;}
+	
+.my-post-block-form li {
+	width:110px;
+	height:36px;
+	transition: all 0.5s ease 0s;}
+	
+.my-post-block-form li:hover {
+	padding-left:10px;
+	transition: all 0.5s ease 0s;}
+	
+/*HP bar*/
+
+.my-post-HP {
+  
+
+  width: 100px;
+  text-align: center;
+
+}
+
+.my-post-ability{
+    color: black;
+    
+}
+
+.my-post-HP .progress {
+  margin: 0 auto;
+  width: 100px;
+}
+
+.progress {
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar {
+  height: 12px;
+  border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       http://css-tricks.com/webkit-sibling-bug/
+ */
+
+
+/*HP bar end*/
+
+
+	
